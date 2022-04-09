@@ -1,3 +1,3 @@
 # blog
 
-This repository content I prepared for learning.
+This repository content data I prepared for learning.
