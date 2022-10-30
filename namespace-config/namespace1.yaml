@@ -6,11 +6,13 @@ metadata:
 apiVersion: v1
 kind: ResourceQuota
 metadata:
-  name: namespace1-quota
+  name: quota1
   namespace: namespace1
 spec:
   hard:
-    requests
-      cpu: "200m"  
-    limits
-      cpu: "300m"
+    cpu: "20"
+    memory: 1Gi
+    pods: "10"
+    replicationcontrollers: "20"
+    resourcequotas: "1"
+    services: "5"
