@@ -11,7 +11,7 @@ metadata:
 spec:
   hard:
     cpu: "20"
-    memory: "6Mi"
+    memory: "7Mi"
     pods: "10"
     replicationcontrollers: "20"
     resourcequotas: "1"
