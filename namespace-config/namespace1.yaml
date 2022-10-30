@@ -12,7 +12,7 @@ spec:
   hard:
     cpu: "20"
     memory: "7Mi"
-    pods: "10"
+    pods: "15"
     replicationcontrollers: "20"
     resourcequotas: "1"
     services: "5"
