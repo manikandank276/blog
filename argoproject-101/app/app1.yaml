@@ -1,8 +1,16 @@
-project: default
-source:
-  repoURL: 'https://charts.bitnami.com/bitnami'
-  targetRevision: 9.6.2
-  chart: apache
-destination:
-  server: 'https://kubernetes.default.svc'
-  namespace: namespace2
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app1-apache
+spec:
+  destination:
+    name: ''
+    namespace: namespace2
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: ''
+    repoURL: 'https://charts.bitnami.com/bitnami'
+    targetRevision: 9.6.2
+    chart: apache
+  sources: []
+  project: default
