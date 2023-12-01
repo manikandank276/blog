@@ -10,7 +10,7 @@ metadata:
   namespace: namespace1
 spec:
   hard:
-    cpu: "20"
+    cpu: "25"
     memory: "7Mi"
     pods: "15"
     replicationcontrollers: "20"
